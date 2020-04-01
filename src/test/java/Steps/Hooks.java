@@ -31,6 +31,7 @@ public class Hooks extends BaseUtil {
         else {
             System.out.println("Cerrando browser sin fallo " + scenario.getName());
         }
+        base.Driver.quit();
     }
 
 }
